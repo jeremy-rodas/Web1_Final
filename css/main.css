@@ -3,11 +3,12 @@ body {
   background-color: #8b0000;
   }
   
-h2{
+#concept h2{
 color:#fff;
 padding-top: 1em;
 margin: 0 2em;
 background-image: url("../img/original_concept.svg");
+background-size: 100%;
 }
   
   
