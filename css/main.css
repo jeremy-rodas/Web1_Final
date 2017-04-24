@@ -4,7 +4,6 @@ body {
   }
   
 h2{
-font-family: "RobotoSlab-Bold", seriff;
 color:#fff;
 }
   
@@ -33,7 +32,6 @@ padding-top: 1em;
   }
 
 #banner h1 {
-  font-family: "RobotoSlab-Bold", seriff;
   color: #fff;
   margin-top: 0;
   margin-bottom: 0;
