@@ -10,7 +10,6 @@ margin: 0 2em;
 }
   
   p{
-font:
 font-size: 1em ;
 font-family: "RobotoSlab-Bold",seriff;
 color:#fff;
@@ -27,11 +26,6 @@ padding-top: 1em;
 
 #banner {
   background-image: url("../img/wallpaper_color_r1.svg");
-  background-image: url("../img/original_concept.svg");
-  background-image: url("../img/wallpaper_color_g1.svg");
-  background-image: url("../img/wallpaper_color_w1.svg");
-  background-image: url("../img/wallpaper_color_w2.svg");
-  background-image: url("../img/wallpaper_color_r2.svg");
   background-repeat: repeat; /* repeat-x, repeat, no-repeat */
   background-position: left top;
   background-size: 50%; /* don't use unless your fall back image size is acceptable */
