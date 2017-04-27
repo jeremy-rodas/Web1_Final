@@ -17,45 +17,85 @@ img {
   height: auto;
 }
   
-
-p{
-font-size: 1em;
-color:#fff;
+h2{
+color:#fcfbe3;
+font-family: RobotoSlab-Bold;
 margin: 0 2em;
 line-height: 1.5;
 padding-top: 1em;
 }
 
-
-#concept h2{
-color:#fff;
-padding-top: 1em;
+p{
+font-size: .9em;
+font-family: RobotoSlab-Bold;
+color:#fcfbe3;
 margin: 0 2em;
-background-image: url("../img/original_concept.svg");
-background-size: 100%;
-padding: 10% 0 50%;
-background-repeat: no-repeat;
+line-height: 1.5;
+padding-top: 1em;
 }
-  
+
+figcaption{
+font-size: .9em;
+font-family: RobotoSlab-Bold;
+color:#fcfbe3;
+margin: 0 2em;
+line-height: 1.5;
+padding-top: 1em;
+}
 
 #banner {
   background-image: url("../img/wallpaper_color_r1.svg");
   background-repeat: repeat; /* repeat-x, repeat, no-repeat */
   background-position: left top;
   background-size: 50%; /* don't use unless your fall back image size is acceptable */
-  padding: 10% 0 50%;
+  padding: 10% 0 15%;
   }
 
 #banner h1 {
-  color: #fff;
+  font-family: RobotoSlab-Bold;
+  color: #fcfbe3;
   margin-top: 0;
   margin-bottom: 0;
   }
+  
+@media (min-width: 30em) {
+
+h1 {
+  font-size: 3em;
+  }
+  
+h2 {
+   font-size:2em;
+   }
+
+p{
+font-size: 1.2em;
+}
+
+figcaption{
+font-size: 1.2em;
+}
+
+
+}
+
 
 @media (min-width: 48em) {
 
-#banner h1 {
-  font-size: 3.5em;
+h1 {
+  font-size: 4em;
   }
+  
+h2 {
+   font-size:2.5em;
+   }
+
+p{
+font-size: 1.4em;
+}
+
+figcaption{
+font-size: 1.4em;
+}
 
 }
