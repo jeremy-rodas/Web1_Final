@@ -19,15 +19,15 @@ img {
   
 h2{
 color:#fcfbe3;
-font-family: RobotoSlab-Bold;
+font-family: robotoslab-bold;
 margin: 0 2em;
 line-height: 1.5;
 padding-top: 1em;
 }
 
 p{
-font-size: .9em;
-font-family: RobotoSlab-Bold;
+font-size: 1em;
+font-family: robotoslab-bold;
 color:#fcfbe3;
 margin: 0 2em;
 line-height: 1.4;
@@ -35,8 +35,8 @@ padding-top: 1em;
 }
 
 figcaption{
-font-size: .9em;
-font-family: RobotoSlab-Bold;
+font-size: 1em;
+font-family: robotoslab-bold;
 color:#fcfbe3;
 margin: 0 2em;
 line-height: 1.4;
@@ -48,7 +48,7 @@ padding-top: 1em;
   background-repeat: repeat; /* repeat-x, repeat, no-repeat */
   background-position: left top;
   background-size: 50%; /* don't use unless your fall back image size is acceptable */
-  padding: 10% 0 15%;
+  padding: 10% 0 9%;
   }
 
 #banner h1 {
@@ -61,6 +61,7 @@ padding-top: 1em;
 @media (min-width: 30em) {
 
 h1 {
+
   font-size: 3em;
   
   }
@@ -80,6 +81,9 @@ font-size: 1.2em;
 
 }
 
+#banner {
+  padding: 10% 0 10%;
+  }
 
 }
 
@@ -105,5 +109,61 @@ figcaption{
 font-size: 1.4em;
 
 }
+
+#banner {
+  padding: 10% 0 11%;
+  }
+}
+
+@media (min-width: 60em) {
+
+h1 {
+  font-size: 5em;
+
+  }
+  
+h2 {
+   font-size:3em;
+  
+   }
+
+p{
+font-size: 1.9em;
+
+}
+
+figcaption{
+font-size: 1.9em;
+}
+
+.max-width {
+  max-width: 80em;
+  padding: 0 1em;
+  margin: 0 auto;
+  }
+
+#banner {
+  padding: 10% 0 12%;
+  }
+}
+@media (min-width: 70em) {
+
+#banner {
+  padding: 10% 0 13%;
+  }
+
+h1 {
+  font-size: 6em;
+  }
+  
+}
+@media (min-width: 80em) {
+
+#banner {
+  padding: 10% 0 14%;
+  }
+h1 {
+  font-size: 7em;
+  }
 
 }
