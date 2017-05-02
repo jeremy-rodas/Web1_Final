@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Open Sans";
+    font-family: "robotoslab";
     src: url("../fonts/robotoslab-bold-webfont.woff2") format("woff2"),
          url("../fonts/robotoslab-bold-webfont.woff") format("woff");
     font-weight: bold;
@@ -7,10 +7,11 @@
 }
 
 @font-face {
-    font-family: "Open Sans";
+    font-family: "robotoslab";
     src: url("../fonts/robotoslab-regular-webfont.woff2") format("woff2"),
          url("../fonts/robotoslab-regular-webfont.woff") format("woff");
     font-style: normal;
+    font-weight: 100;
 }
 
 
