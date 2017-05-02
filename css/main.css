@@ -1,15 +1,29 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/robotoslab-bold-webfont.woff2") format("woff2"),
+         url("../fonts/robotoslab-bold-webfont.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/robotoslab-regular-webfont.woff2") format("woff2"),
+         url("../fonts/robotoslab-regular-webfont.woff") format("woff");
+    font-style: normal;
+}
+
+
 body {
   margin: 0;
   background-color: #8b0000;
   }
-
 
 .max-width {
   max-width: 60em;
   padding: 0 1em;
   margin: 0 auto;
   }
-
 
 img {
   width: auto;
@@ -19,7 +33,7 @@ img {
   
 h2{
 color:#fcfbe3;
-font-family: robotoslab-bold;
+font-family: "robotoslab-bold", seriff;
 margin: 0 2em;
 line-height: 1.5;
 padding-top: 1em;
@@ -27,16 +41,20 @@ padding-top: 1em;
 
 p{
 font-size: 1em;
-font-family: robotoslab-bold;
+font-family: "robotoslab-bold", seriff;
 color:#fcfbe3;
 margin: 0 2em;
 line-height: 1.4;
 padding-top: 1em;
 }
 
+span {
+font-size: 1.5em;
+}
+
 figcaption{
 font-size: 1em;
-font-family: robotoslab-bold;
+font-family: "robotoslab-bold", seriff;
 color:#fcfbe3;
 margin: 0 2em;
 line-height: 1.4;
@@ -52,7 +70,7 @@ padding-top: 1em;
   }
 
 #banner h1 {
-  font-family: RobotoSlab-Bold;
+  font-family: "robotoslab-bold", seriff;
   color: #fcfbe3;
   margin-top: 0;
   margin-bottom: 0;
@@ -63,22 +81,18 @@ padding-top: 1em;
 h1 {
 
   font-size: 3em;
-  
   }
   
 h2 {
    font-size:2em;
-  
    }
 
 p{
 font-size: 1.2em;
-
 }
 
 figcaption{
 font-size: 1.2em;
-
 }
 
 #banner {
@@ -92,22 +106,18 @@ font-size: 1.2em;
 
 h1 {
   font-size: 4em;
-
   }
   
 h2 {
    font-size:2.5em;
-  
    }
 
 p{
 font-size: 1.4em;
-
 }
 
 figcaption{
 font-size: 1.4em;
-
 }
 
 #banner {
@@ -119,17 +129,14 @@ font-size: 1.4em;
 
 h1 {
   font-size: 5em;
-
   }
   
 h2 {
    font-size:3em;
-  
    }
 
 p{
 font-size: 1.9em;
-
 }
 
 figcaption{
@@ -146,6 +153,7 @@ font-size: 1.9em;
   padding: 10% 0 12%;
   }
 }
+
 @media (min-width: 70em) {
 
 #banner {
@@ -162,6 +170,7 @@ h1 {
 #banner {
   padding: 10% 0 14%;
   }
+  
 h1 {
   font-size: 7em;
   }
