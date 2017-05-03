@@ -10,14 +10,41 @@
     font-family: "robotoslab";
     src: url("../fonts/robotoslab-regular-webfont.woff2") format("woff2"),
          url("../fonts/robotoslab-regular-webfont.woff") format("woff");
+    font-weight: normal;
     font-style: normal;
-    font-weight: 100;
+}
+
+
+@font-face {
+    font-family: 'roboto_monobold';
+    src: url('../fonts/robotomono-bold-webfont.woff2') format('woff2'),
+         url('../fonts/robotomono-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'roboto_monomedium';
+    src: url('../fonts/robotomono-medium-webfont.woff2') format('woff2'),
+         url('../fonts/robotomono-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'roboto_monoregular';
+    src: url('../fonts/robotomono-regular-webfont.woff2') format('woff2'),
+         url('../fonts/robotomono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
 body {
   margin: 0;
-  background-color: #8b0000;
+  background-color: #F0F0F0;
   }
 
 .max-width {
@@ -33,8 +60,9 @@ img {
 }
   
 h2{
-color:#fcfbe3;
-font-family: "robotoslab-bold", seriff;
+color:#888888;
+font-family: "robotoslab", seriff;
+font-weight: bold;
 margin: 0 2em;
 line-height: 1.5;
 padding-top: 1em;
@@ -42,8 +70,9 @@ padding-top: 1em;
 
 p{
 font-size: 1em;
-font-family: "robotoslab-bold", seriff;
-color:#fcfbe3;
+font-family: 'roboto_monomedium', seriff;
+font-weight; normal;
+color:#888888;
 margin: 0 2em;
 line-height: 1.4;
 padding-top: 1em;
@@ -52,14 +81,20 @@ padding-top: 1em;
 span {
 font-size: 1.5em;
 }
+figure{
+padding: 2em;
+
+}
+
 
 figcaption{
 font-size: 1em;
-font-family: "robotoslab-bold", seriff;
-color:#fcfbe3;
+font-family: 'roboto_monomedium', seriff;
+font-weight; normal;
+color:#888888;
 margin: 0 2em;
 line-height: 1.4;
-padding-top: 1em;
+padding: 2em;
 }
 
 #banner {
@@ -71,8 +106,9 @@ padding-top: 1em;
   }
 
 #banner h1 {
-  font-family: "robotoslab-bold", seriff;
-  color: #fcfbe3;
+  font-family: "robotoslab", seriff;
+  font-weight: bold;
+  color:#F0F0F0;
   margin-top: 0;
   margin-bottom: 0;
   }
