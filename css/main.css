@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "robotoslab";
+    font-family: 'robotoslab';
     src: url("../fonts/robotoslab-bold-webfont.woff2") format("woff2"),
          url("../fonts/robotoslab-bold-webfont.woff") format("woff");
     font-weight: bold;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: "robotoslab";
+    font-family: 'robotoslab';
     src: url("../fonts/robotoslab-regular-webfont.woff2") format("woff2"),
          url("../fonts/robotoslab-regular-webfont.woff") format("woff");
     font-weight: normal;
@@ -16,31 +16,15 @@
 
 
 @font-face {
-    font-family: 'roboto_monobold';
-    src: url('../fonts/robotomono-bold-webfont.woff2') format('woff2'),
-         url('../fonts/robotomono-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
     font-family: 'roboto_monomedium';
-    src: url('../fonts/robotomono-medium-webfont.woff2') format('woff2'),
-         url('../fonts/robotomono-medium-webfont.woff') format('woff');
+    src: url("../fonts/robotomono-medium-webfont.woff2") format("woff2"),
+         url("../fonts/robotomono-medium-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 
-@font-face {
-    font-family: 'roboto_monoregular';
-    src: url('../fonts/robotomono-regular-webfont.woff2') format('woff2'),
-         url('../fonts/robotomono-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
+/* normalize */
 
 body {
   margin: 0;
@@ -59,43 +43,33 @@ img {
   height: auto;
 }
   
+/*   general fixes */
+
 h2{
-color:#888888;
-font-family: "robotoslab", seriff;
+color: #888888;
+font-family: 'robotoslab', seriff;
 font-weight: bold;
 margin: 0 1.3em;
 line-height: 1.5;
 padding-top: 1em;
+padding-bottom: 1em;
 }
 
-p{
+p {
 font-size: 1em;
 font-family: 'roboto_monomedium', seriff;
-font-weight; normal;
-color:#888888;
+font-weight: normal;
+color: #888888;
 margin: 0 2em;
-line-height: 1.4;
-padding-top: 1em;
+line-height: 1.4em;
+padding-top: 2em;
 }
 
 span {
 font-size: 1.5em;
 }
-figure{
-padding: 2em;
 
-}
-
-
-figcaption{
-font-size: 1em;
-font-family: 'roboto_monomedium', seriff;
-font-weight; normal;
-color:#888888;
-margin: 0 2em;
-line-height: 1.4;
-padding: 2em;
-}
+/* header */
 
 #banner {
   background-image: url("../img/wallpaper_color_r1.svg");
@@ -106,17 +80,35 @@ padding: 2em;
   }
 
 #banner h1 {
-  font-family: "robotoslab", seriff;
+  font-family: 'robotoslab', seriff;
   font-weight: bold;
   color:#F0F0F0;
   margin-top: 0;
   margin-bottom: 0;
+  text-align: center;
   }
+
+/* figure and figcaption */
+
+figcaption {
+font-size: 1em;
+font-family: 'roboto_monomedium', seriff;
+font-weight: normal;
+color:#888888;
+margin: 0 2em;
+line-height: 1.4em;
+}
+
+.max-width figcaption {
+padding-top: 2em;
+padding-bottom: 2em;
+}
+
+/* media query */
   
 @media (min-width: 30em) {
 
 h1 {
-
   font-size: 3em;
   }
   
@@ -130,6 +122,7 @@ font-size: 1.2em;
 
 figcaption{
 font-size: 1.2em;
+;
 }
 
 #banner {
@@ -162,6 +155,7 @@ font-size: 1.4em;
   }
 }
 
+
 @media (min-width: 60em) {
 
 h1 {
@@ -185,31 +179,9 @@ font-size: 1.9em;
   padding: 0 1em;
   margin: 0 auto;
   }
-
+  
 #banner {
   padding: 10% 0 12%;
   }
 }
 
-@media (min-width: 70em) {
-
-#banner {
-  padding: 10% 0 13%;
-  }
-
-h1 {
-  font-size: 6em;
-  }
-  
-}
-@media (min-width: 80em) {
-
-#banner {
-  padding: 10% 0 14%;
-  }
-  
-h1 {
-  font-size: 7em;
-  }
-
-}
