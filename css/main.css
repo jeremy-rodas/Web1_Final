@@ -46,7 +46,7 @@ img {
 /*   general fixes */
 
 h2{
-color: #888888;
+color: #FF2900;
 font-family: 'robotoslab', seriff;
 font-weight: bold;
 margin: 0 1.3em;
@@ -67,6 +67,7 @@ padding-bottom: 1em;
 
 span {
 font-size: 1.6em;
+color: #FF2900;
 }
 
 /* header */
