@@ -46,7 +46,7 @@ img {
 /*   general fixes */
 
 h2{
-color: #FF2900;
+color: #ff2900;
 font-family: 'robotoslab', seriff;
 font-weight: bold;
 margin: 0 1.3em;
@@ -62,12 +62,11 @@ color: #888888;
 margin: 0 2em;
 line-height: 1.4em;
 padding-top: 2em;
-padding-bottom: 1em;
 }
 
 span {
-font-size: 1.6em;
-color: #FF2900;
+font-size: 1.5em;
+color: #ff2900;
 }
 
 /* header */
@@ -98,13 +97,11 @@ font-weight: normal;
 color:#888888;
 margin: 0 2em;
 line-height: 1.4em;
-padding-top: 2em;
-padding-bottom: 2em;
 }
 
-.max-width figcaption {
-padding-top: 2em;
-padding-bottom: 2em;
+figcaption.max-width {
+max-width: 60em;
+margin: 2em auto;
 }
 
 /* media query */
